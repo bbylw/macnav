@@ -78,29 +78,227 @@ function setupWebsiteItems() {
             
             // 根据网站名确定URL
             switch(siteName) {
-                case '百度':
-                    url = 'https://www.baidu.com';
+                case 'Google':
+                    url = 'https://www.google.com';
                     break;
-                case '蓝易云':
-                    url = 'https://www.aliyun.com';
+                case 'Bing':
+                    url = 'https://www.bing.com';
                     break;
-                case '即时设计':
-                    url = 'https://js.design';
+                case 'openrouter':
+                    url = 'https://openrouter.ai/';
                     break;
-                case '码云Gitee':
-                    url = 'https://gitee.com';
+                case 'websim':
+                    url = 'https://websim.ai/';
+                    break;
+                case 'Facebook':
+                    url = 'https://www.facebook.com';
+                    break;
+                case 'Twitter':
+                    url = 'https://twitter.com';
+                    break;
+                case 'Instagram':
+                    url = 'https://www.instagram.com';
+                    break;
+                case 'YouTube':
+                    url = 'https://www.youtube.com';
+                    break;
+                case 'TikTok':
+                    url = 'https://www.tiktok.com';
                     break;
                 case 'GitHub':
                     url = 'https://github.com';
                     break;
-                case 'WebTerm':
-                    url = 'https://webterm.dev';
+                case 'Pinterest':
+                    url = 'https://www.pinterest.com';
                     break;
-                case '服务器':
-                    url = 'https://console.cloud.tencent.com';
+                case 'Stack Overflow':
+                    url = 'https://stackoverflow.com';
+                    break;
+                case 'Netflix':
+                    url = 'https://www.netflix.com';
+                    break;
+                case 'Spotify':
+                    url = 'https://www.spotify.com';
+                    break;
+                case '哔哩哔哩':
+                    url = 'https://www.bilibili.com';
+                    break;
+                case 'IMDb':
+                    url = 'https://www.imdb.com';
+                    break;
+                case 'Hulu':
+                    url = 'https://www.hulu.com';
+                    break;
+                case 'Disney+':
+                    url = 'https://www.disneyplus.com';
+                    break;
+                case 'SoundCloud':
+                    url = 'https://soundcloud.com';
+                    break;
+                case 'Amazon':
+                    url = 'https://www.amazon.com';
+                    break;
+                case '淘宝':
+                    url = 'https://www.taobao.com';
+                    break;
+                case '京东':
+                    url = 'https://www.jd.com';
+                    break;
+                case 'Shopify':
+                    url = 'https://www.shopify.com';
+                    break;
+                case 'eBay':
+                    url = 'https://www.ebay.com';
+                    break;
+                case 'SHEIN':
+                    url = 'https://www.shein.com';
+                    break;
+                case 'Walmart':
+                    url = 'https://www.walmart.com';
+                    break;
+                case '美团':
+                    url = 'https://www.meituan.com';
+                    break;
+                case 'Wikipedia':
+                    url = 'https://www.wikipedia.org';
+                    break;
+                case 'Coursera':
+                    url = 'https://www.coursera.org';
+                    break;
+                case 'edX':
+                    url = 'https://www.edx.org';
+                    break;
+                case 'Khan Academy':
+                    url = 'https://www.khanacademy.org';
+                    break;
+                case 'Nature':
+                    url = 'https://www.nature.com';
+                    break;
+                case 'Duolingo':
+                    url = 'https://www.duolingo.com';
+                    break;
+                case 'Udemy':
+                    url = 'https://www.udemy.com';
+                    break;
+                case 'ResearchGate':
+                    url = 'https://www.researchgate.net';
+                    break;
+                case 'CNN':
+                    url = 'https://www.cnn.com';
+                    break;
+                case 'BBC':
+                    url = 'https://www.bbc.com';
+                    break;
+                case 'Reuters':
+                    url = 'https://www.reuters.com';
+                    break;
+                case 'New York Times':
+                    url = 'https://www.nytimes.com';
+                    break;
+                case '环球时报':
+                    url = 'https://www.globaltimes.cn';
+                    break;
+                case 'The Guardian':
+                    url = 'https://www.theguardian.com';
+                    break;
+                case 'Bloomberg':
+                    url = 'https://www.bloomberg.com';
+                    break;
+                case 'Twitch':
+                    url = 'https://www.twitch.tv';
+                    break;
+                case 'Steam':
+                    url = 'https://store.steampowered.com';
+                    break;
+                case 'Xbox':
+                    url = 'https://www.xbox.com';
+                    break;
+                case 'PlayStation':
+                    url = 'https://www.playstation.com';
+                    break;
+                case 'Nintendo':
+                    url = 'https://www.nintendo.com';
+                    break;
+                case 'Discord':
+                    url = 'https://discord.com';
+                    break;
+                case 'Epic Games':
+                    url = 'https://www.epicgames.com';
+                    break;
+                case 'Chess.com':
+                    url = 'https://www.chess.com';
+                    break;
+                case 'AWS':
+                    url = 'https://aws.amazon.com';
+                    break;
+                case 'Azure':
+                    url = 'https://azure.microsoft.com';
+                    break;
+                case 'Google Cloud':
+                    url = 'https://cloud.google.com';
+                    break;
+                case '阿里云':
+                    url = 'https://www.aliyun.com';
+                    break;
+                case '腾讯云':
+                    url = 'https://cloud.tencent.com';
+                    break;
+                case 'Dropbox':
+                    url = 'https://www.dropbox.com';
+                    break;
+                case '百度网盘':
+                    url = 'https://pan.baidu.com';
+                    break;
+                case 'MongoDB':
+                    url = 'https://www.mongodb.com';
+                    break;
+                case 'Booking.com':
+                    url = 'https://www.booking.com';
+                    break;
+                case 'Airbnb':
+                    url = 'https://www.airbnb.com';
+                    break;
+                case 'Uber':
+                    url = 'https://www.uber.com';
+                    break;
+                case 'TripAdvisor':
+                    url = 'https://www.tripadvisor.com';
+                    break;
+                case '携程':
+                    url = 'https://www.ctrip.com';
+                    break;
+                case '滴滴出行':
+                    url = 'https://www.didiglobal.com';
+                    break;
+                case 'Google Maps':
+                    url = 'https://www.google.com/maps';
+                    break;
+                case 'WebMD':
+                    url = 'https://www.webmd.com';
+                    break;
+                case 'Mayo Clinic':
+                    url = 'https://www.mayoclinic.org';
+                    break;
+                case 'WHO':
+                    url = 'https://www.who.int';
+                    break;
+                case 'Fitbit':
+                    url = 'https://www.fitbit.com';
+                    break;
+                case '平安好医生':
+                    url = 'https://www.pingan.com/health';
+                    break;
+                case '丁香医生':
+                    url = 'https://www.dxy.cn';
+                    break;
+                case 'MyFitnessPal':
+                    url = 'https://www.myfitnesspal.com';
+                    break;
+                case 'NIH':
+                    url = 'https://www.nih.gov';
                     break;
                 default:
-                    url = 'https://www.baidu.com';
+                    url = 'https://www.google.com';
             }
             
             window.open(url, '_blank');
@@ -119,9 +317,6 @@ function setupDockItems() {
             
             // 根据网站名确定URL
             switch(siteName) {
-                case '百度':
-                    url = 'https://www.baidu.com';
-                    break;
                 case 'AI':
                     url = 'https://chat.openai.com';
                     break;
@@ -147,7 +342,6 @@ function setupDockItems() {
                     url = 'https://www.csdn.net';
                     break;
                 case '工具':
-                    // 显示工具菜单
                     alert('工具功能开发中...');
                     return;
                 case '掘金':
@@ -171,63 +365,39 @@ function setupDockItems() {
     });
 }
 
-// 导航栏项点击处理
-function setupNavItems() {
+// 分类切换功能
+function setupCategorySwitch() {
     const navItems = document.querySelectorAll('.nav-item');
-    const websiteCategories = document.querySelectorAll('.website-category');
-    
-    // 定义分类id映射
-    const categoryMap = {
-        '首页': 'home-category',
-        '娱乐影音': 'entertainment-category',
-        '工具开发': 'dev-category',
-        '购物消费': 'shopping-category',
-        '学习教育': 'education-category',
-        '新闻资讯': 'news-category',
-        '游戏娱乐': 'gaming-category',
-        '云服务': 'cloud-category',
-        '旅行出行': 'travel-category',
-        '健康医疗': 'health-category'
-    };
+    const categories = document.querySelectorAll('.website-category');
     
     navItems.forEach(item => {
-        item.addEventListener('click', function() {
-            // 移除所有active类
-            navItems.forEach(navItem => {
-                navItem.classList.remove('active');
-            });
+        item.addEventListener('click', () => {
+            // 移除所有激活状态
+            navItems.forEach(nav => nav.classList.remove('active'));
+            categories.forEach(cat => cat.classList.remove('active-category'));
             
-            // 添加active类到当前点击的项
-            this.classList.add('active');
+            // 添加当前项的激活状态
+            item.classList.add('active');
+            const categoryId = item.getAttribute('data-category');
+            const categoryElement = document.getElementById(categoryId);
+            categoryElement.classList.add('active-category');
             
-            // 获取当前分类名称
-            const categoryName = this.querySelector('span').textContent;
+            // 重置滚动位置到顶部
+            categoryElement.scrollTop = 0;
+        });
+    });
+    
+    // 监听滚动事件，确保内容不被Dock栏遮挡
+    categories.forEach(category => {
+        category.addEventListener('scroll', function() {
+            // 检测是否接近底部
+            const isNearBottom = this.scrollHeight - this.scrollTop - this.clientHeight < 100;
             
-            // 隐藏所有分类
-            websiteCategories.forEach(category => {
-                category.classList.remove('active-category');
-            });
-            
-            // 显示对应的分类
-            const categoryId = categoryMap[categoryName];
-            if (categoryId) {
-                const targetCategory = document.getElementById(categoryId);
-                if (targetCategory) {
-                    targetCategory.classList.add('active-category');
-                }
-            }
-            
-            // 添加分类切换动画
-            const targetCategory = document.getElementById(categoryId);
-            if (targetCategory) {
-                targetCategory.style.opacity = 0;
-                targetCategory.classList.add('active-category');
-                
-                // 渐入动画
-                setTimeout(() => {
-                    targetCategory.style.transition = 'opacity 0.3s ease';
-                    targetCategory.style.opacity = 1;
-                }, 50);
+            // 如果接近底部，添加额外的底部padding
+            if (isNearBottom) {
+                this.style.paddingBottom = '100px';
+            } else {
+                this.style.paddingBottom = '20px';
             }
         });
     });
@@ -318,8 +488,8 @@ document.addEventListener('DOMContentLoaded', () => {
     setupSearch();
     setupWebsiteItems();
     setupDockItems();
-    setupNavItems();
+    setupCategorySwitch();
     
     // 可选：启用背景粒子效果
     // setupParticles();
-}); 
+});

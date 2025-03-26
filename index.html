@@ -28,45 +28,30 @@
           <span>导航</span>
         </div>
         <div class="nav-items">
-          <div class="nav-item active">
-            <i class="fas fa-home"></i>
-            <span>首页</span>
+          <div class="nav-item active" data-category="ai-search">
+            <i class="fas fa-robot"></i>
+            <span>Ai搜索</span>
           </div>
-          <div class="nav-item">
-            <i class="fas fa-play-circle"></i>
-            <span>娱乐影音</span>
+
+          <div class="nav-item" data-category="social">
+            <i class="fas fa-users"></i>
+            <span>社交媒体</span>
           </div>
-          <div class="nav-item">
-            <i class="fas fa-code"></i>
-            <span>工具开发</span>
+          <div class="nav-item" data-category="tools">
+            <i class="fas fa-toolbox"></i>
+            <span>实用工具</span>
           </div>
-          <div class="nav-item">
-            <i class="fas fa-shopping-cart"></i>
-            <span>购物消费</span>
-          </div>
-          <div class="nav-item">
-            <i class="fas fa-book"></i>
-            <span>学习教育</span>
-          </div>
-          <div class="nav-item">
+          <div class="nav-item" data-category="tech-news">
             <i class="fas fa-newspaper"></i>
-            <span>新闻资讯</span>
+            <span>科技资讯</span>
           </div>
-          <div class="nav-item">
-            <i class="fas fa-gamepad"></i>
-            <span>游戏娱乐</span>
-          </div>
-          <div class="nav-item">
+          <div class="nav-item" data-category="cloud-storage">
             <i class="fas fa-cloud"></i>
-            <span>云服务</span>
+            <span>云存储</span>
           </div>
-          <div class="nav-item">
-            <i class="fas fa-plane"></i>
-            <span>旅行出行</span>
-          </div>
-          <div class="nav-item">
-            <i class="fas fa-briefcase-medical"></i>
-            <span>健康医疗</span>
+          <div class="nav-item" data-category="email">
+            <i class="fas fa-envelope"></i>
+            <span>电子邮箱</span>
           </div>
         </div>
       </div>
@@ -94,57 +79,1036 @@
 
         <!-- 主要网站图标 -->
         <div class="websites-container">
-          <!-- 首页分类 - 常用网站 -->
-          <div class="website-category active-category" id="home-category">
-            <div class="category-title">常用网站</div>
+          <!-- Ai搜索分类 -->
+          <div class="website-category active-category" id="ai-search">
+            <div class="category-title">Ai搜索</div>
             <div class="website-row">
               <div class="website-item">
-                <div class="website-icon blue">
-                  <i class="fab fa-google"></i>
-                </div>
-                <div class="website-name">Google</div>
+                <a href="https://www.google.com" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-brands fa-google"></i>
+                  </div>
+                  <div class="website-name">Google</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon red">
-                  <i class="fab fa-youtube"></i>
-                </div>
-                <div class="website-name">YouTube</div>
+                <a href="https://www.bing.com" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-brands fa-microsoft"></i>
+                  </div>
+                  <div class="website-name">Bing</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon blue">
-                  <i class="fab fa-facebook"></i>
-                </div>
-                <div class="website-name">Facebook</div>
+                <a href="https://openrouter.ai/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-brands fa-openid"></i>
+                  </div>
+                  <div class="website-name">openrouter</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon multi">
-                  <i class="fab fa-instagram"></i>
-                </div>
-                <div class="website-name">Instagram</div>
+                <a href="https://websim.ai/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                  <div class="website-name">websim</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon blue">
-                  <i class="fab fa-twitter"></i>
-                </div>
-                <div class="website-name">Twitter</div>
+                <a href="https://chatgpt.com/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-brands fa-google"></i>
+                  </div>
+                  <div class="website-name">chatgpt</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon red">
-                  <i class="fab fa-tiktok"></i>
-                </div>
-                <div class="website-name">TikTok</div>
+                <a href="https://www.doubao.com/chat/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-paw"></i>
+                  </div>
+                  <div class="website-name">傻豆包</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon dark">
-                  <i class="fab fa-github"></i>
-                </div>
-                <div class="website-name">GitHub</div>
+                <a href="https://chat.qwen.ai/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-brands fa-rocketchat"></i>
+                  </div>
+                  <div class="website-name">通义千问</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon red">
-                  <i class="fab fa-pinterest"></i>
-                </div>
-                <div class="website-name">Pinterest</div>
+                <a href="https://kimi.moonshot.cn/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-regular fa-moon"></i>
+                  </div>
+                  <div class="website-name">kimi</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://yiyan.baidu.com/" target="_blank">
+                  <div class="website-icon red">
+                    <i class="fa-solid fa-dumpster-fire"></i>
+                  </div>
+                  <div class="website-name">文心一言</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://yuanbao.tencent.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-robot"></i>
+                  </div>
+                  <div class="website-name">腾讯元宝</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://aistudio.google.com/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-solid fa-robot"></i>
+                  </div>
+                  <div class="website-name">google AIstudio</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://gemini.google.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-brands fa-google-plus"></i>
+                  </div>
+                  <div class="website-name">gemini</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://build.nvidia.com/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-microchip"></i>
+                  </div>
+                  <div class="website-name">nvidia</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://claude.ai/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-robot"></i>
+                  </div>
+                  <div class="website-name">claude</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://chandler.bet/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-solid fa-robot"></i>
+                  </div>
+                  <div class="website-name">ChandlerAi</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://mistral.ai/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-brain"></i>
+                  </div>
+                  <div class="website-name">mistral</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://groq.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-group-arrows-rotate"></i>
+                  </div>
+                  <div class="website-name">groq</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.medscape.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-stethoscope"></i>
+                  </div>
+                  <div class="website-name">medscape</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://heck.ai/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-brands fa-rocketchat"></i>
+                  </div>
+                  <div class="website-name">heck.ai</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.wenxiaobai.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-mask"></i>
+                  </div>
+                  <div class="website-name">问小白</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://app.leonardo.ai/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-regular fa-images"></i>
+                  </div>
+                  <div class="website-name">leonardo.ai绘图</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://huggingface.co/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-solid fa-face-rolling-eyes"></i>
+                  </div>
+                  <div class="website-name">huggingface</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://lmarena.ai/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-robot"></i>
+                  </div>
+                  <div class="website-name">lmarena</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://kelaode.ai/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-solid fa-robot"></i>
+                  </div>
+                  <div class="website-name">kelaode</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://x.ai/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </div>
+                  <div class="website-name">x.ai</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://ascvdpce.186404.xyz/" target="_blank">
+                  <div class="website-icon red">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                  </div>
+                  <div class="website-name">pce计算</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.deepseek.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-brands fa-rocketchat"></i>
+                  </div>
+                  <div class="website-name">deepseek</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://ai.dangbei.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-brands fa-rocketchat"></i>
+                  </div>
+                  <div class="website-name">当贝AI</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.beago.ai/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-brands fa-rocketchat"></i>
+                  </div>
+                  <div class="website-name">beago.ai</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://sigmabrowser.com/chat" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-brands fa-rocketchat"></i>
+                  </div>
+                  <div class="website-name">sigmachat</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://bolt.new/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-solid fa-bolt"></i>
+                  </div>
+                  <div class="website-name">bolt.new</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 社交媒体分类 -->
+          <div class="website-category" id="social">
+            <div class="category-title">社交媒体</div>
+            <div class="website-row">
+              <div class="website-item">
+                <a href="https://www.facebook.com" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fab fa-facebook"></i>
+                  </div>
+                  <div class="website-name">Facebook</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://twitter.com" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fab fa-twitter"></i>
+                  </div>
+                  <div class="website-name">Twitter</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://twitterxz.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </div>
+                  <div class="website-name">推特视频下载</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.instagram.com" target="_blank">
+                  <div class="website-icon pink">
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <div class="website-name">Instagram</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://render.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-draw-polygon"></i>
+                  </div>
+                  <div class="website-name">render</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://deno.com/deploy" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-d"></i>
+                  </div>
+                  <div class="website-name">deno</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://railway.com/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-archway"></i>
+                  </div>
+                  <div class="website-name">railway</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://vercel.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-v"></i>
+                  </div>
+                  <div class="website-name">vercel</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.netlify.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-brands fa-n"></i>
+                  </div>
+                  <div class="website-name">netlify</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.tiktok.com" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-brands fa-tiktok"></i>
+                  </div>
+                  <div class="website-name">TikTok</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.reddit.com" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-brands fa-reddit"></i>
+                  </div>
+                  <div class="website-name">Reddit</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a
+                  href="https://www.downloadyoutubesubtitles.com/"
+                  target="_blank"
+                >
+                  <div class="website-icon red">
+                    <i class="fa-brands fa-youtube"></i>
+                  </div>
+                  <div class="website-name">油管字幕下载</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://github.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                  <div class="website-name">GitHub</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.y2mate.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-download"></i>
+                  </div>
+                  <div class="website-name">油管视频下载</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://youtube.iiilab.com/" target="_blank">
+                  <div class="website-icon red">
+                    <i class="fa-solid fa-download"></i>
+                  </div>
+                  <div class="website-name">视频下载</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://suno.com/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-solid fa-music"></i>
+                  </div>
+                  <div class="website-name">suno</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://mv.186404.xyz/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-tv"></i>
+                  </div>
+                  <div class="website-name">电影导航</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 实用工具分类 -->
+          <div class="website-category" id="tools">
+            <div class="category-title">实用工具</div>
+            <div class="website-row">
+              <div class="website-item">
+                <a href="https://translate.google.com" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-language"></i>
+                  </div>
+                  <div class="website-name">Google翻译</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://d.186404.xyz/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                  <div class="website-name">短链</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://dynv6.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-network-wired"></i>
+                  </div>
+                  <div class="website-name">dynv6</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://fast.com/" target="_blank">
+                  <div class="website-icon red">
+                    <i class="fa-solid fa-gauge-high"></i>
+                  </div>
+                  <div class="website-name">网速测试</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.cloudns.net/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-cloud"></i>
+                  </div>
+                  <div class="website-name">Cloudns</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.cloudflare.com/zh-cn/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <div class="website-name">Cloudflare</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://ygpy.net/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-solid fa-user-group"></i>
+                  </div>
+                  <div class="website-name">一个朋友</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://notebooklm.google/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <div class="website-name">谷歌笔记</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://email.ml/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="website-name">临时邮箱</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.ahhhhfs.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-blog"></i>
+                  </div>
+                  <div class="website-name">A姐</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://ip.sb/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="website-name">IP查询</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://dns.he.net/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-network-wired"></i>
+                  </div>
+                  <div class="website-name">dns.he域名托管</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.site.ac/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-right-left"></i>
+                  </div>
+                  <div class="website-name">Site域名转发</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://zh.go-to-library.sk/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-book-reader"></i>
+                  </div>
+                  <div class="website-name">Z-Library</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://domain.digitalplat.org/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-solid fa-globe"></i>
+                  </div>
+                  <div class="website-name">us.kg域名</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.spaceship.com/zh/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-solid fa-rocket"></i>
+                  </div>
+                  <div class="website-name">Spaceship廉价域名</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.cursor.com/" target="_blank">
+                  <div class="website-icon react">
+                    <i class="fa-solid fa-i-cursor"></i>
+                  </div>
+                  <div class="website-name">cursor</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://fontawesome.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-icons"></i>
+                  </div>
+                  <div class="website-name">FontAwesome图标</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://scamalytics.com/" target="_blank">
+                  <div class="website-icon red">
+                    <i class="fa-solid fa-ethernet"></i>
+                  </div>
+                  <div class="website-name">ip清洁度查询</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://test-ipv6.com/" target="_blank">
+                  <div class="website-icon pink">
+                    <i class="fa-solid fa-ethernet"></i>
+                  </div>
+                  <div class="website-name">test-ipv6</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://html.zone/ip" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-brands fa-sourcetree"></i>
+                  </div>
+                  <div class="website-name">zone/ip</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a
+                  href="https://www.lumiproxy.com/zh-hans/online-proxy/proxysite/"
+                  target="_blank"
+                >
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-unlock"></i>
+                  </div>
+                  <div class="website-name">免费网络代理</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://ipcheck.ing/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="website-name">ipcheck</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://console.cron-job.org/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-solid fa-ethernet"></i>
+                  </div>
+                  <div class="website-name">定时任务cron-job</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://uptimerobot.com/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="website-name">uptimerobot</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://forwardemail.net/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                  </div>
+                  <div class="website-name">forwardemail</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://improvmx.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                  </div>
+                  <div class="website-name">improvmx</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://gb.w404.nyc.mn/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                  <div class="website-name">github文件加速</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://hostry.com/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                  </div>
+                  <div class="website-name">hostryDNS域名托管</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.sitelutions.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-sitemap"></i>
+                  </div>
+                  <div class="website-name">免费域名sitelutions</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.changeip.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-satellite-dish"></i>
+                  </div>
+                  <div class="website-name">免费域名changeip</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://dnsexit.com/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-users"></i>
+                  </div>
+                  <div class="website-name">免费域名dnsexit</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.nslookup.io/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                  </div>
+                  <div class="website-name">DNS查找nslookup</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://ping0.cc/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-fingerprint"></i>
+                  </div>
+                  <div class="website-name">ping0</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://customer.l53.net/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-solid fa-fingerprint"></i>
+                  </div>
+                  <div class="website-name">L53免费域名</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://tools.pdf24.org/" target="_blank">
+                  <div class="website-icon red">
+                    <i class="fa-solid fa-file-pdf"></i>
+                  </div>
+                  <div class="website-name">PDF在线工具</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="http://free-proxy.cz/en/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-brands fa-internet-explorer"></i>
+                  </div>
+                  <div class="website-name">free-proxy</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.croxyproxy.rocks/_zh/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-unlock"></i>
+                  </div>
+                  <div class="website-name">在线代理croxyproxy</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://doocs.github.io/md/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-regular fa-edit"></i>
+                  </div>
+                  <div class="website-name">微信Markdown编辑器</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.proxysite.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-unlock"></i>
+                  </div>
+                  <div class="website-name">proxysite</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.serv00.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-server"></i>
+                  </div>
+                  <div class="website-name">serv00</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://github.com/Molunerfinn/PicGo" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                  </div>
+                  <div class="website-name">PicGo</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://smms.app/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-image"></i>
+                  </div>
+                  <div class="website-name">SM.MS</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://freeimage.host/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-solid fa-photo-film"></i>
+                  </div>
+                  <div class="website-name">FreeImageHost</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://cobalt.tools/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-brands fa-youtube"></i>
+                  </div>
+                  <div class="website-name">cobalt</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://codeium.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-code"></i>
+                  </div>
+                  <div class="website-name">Windsurf</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://tinywow.com/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-brands fa-free-code-camp"></i>
+                  </div>
+                  <div class="website-name">tinywow</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://paywallbuster.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-key"></i>
+                  </div>
+                  <div class="website-name">付费墙</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://g.186404.xyz/wallHub/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-unlock"></i>
+                  </div>
+                  <div class="website-name">PaywallHub</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://fmhy.net/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-regular fa-folder-open"></i>
+                  </div>
+                  <div class="website-name">fmhy</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.remove.bg/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-image-portrait"></i>
+                  </div>
+                  <div class="website-name">remove</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://picwish.com/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-regular fa-image"></i>
+                  </div>
+                  <div class="website-name">picwish</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://zenvideo.qq.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-video"></i>
+                  </div>
+                  <div class="website-name">腾讯智影</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.hidoha.net/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-fingerprint"></i>
+                  </div>
+                  <div class="website-name">免费域名HiDNS</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://pixabay.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-brands fa-pix"></i>
+                  </div>
+                  <div class="website-name">pixabay</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.infinityfree.com/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-solid fa-infinity"></i>
+                  </div>
+                  <div class="website-name">InfinityFree</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://anyvoice.net/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-microphone"></i>
+                  </div>
+                  <div class="website-name">anyvoice</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://fish.audio/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-fish"></i>
+                  </div>
+                  <div class="website-name">fish.audio</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://noiz.ai/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-circle-notch"></i>
+                  </div>
+                  <div class="website-name">noizai</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://hailuoai.video/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-file-audio"></i>
+                  </div>
+                  <div class="website-name">海螺Ai</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://desec.io/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-anchor"></i>
+                  </div>
+                  <div class="website-name">desec免费域名</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://lovable.dev/" target="_blank">
+                  <div class="website-icon pink">
+                    <i class="fa-solid fa-shield-heart"></i>
+                  </div>
+                  <div class="website-name">lovable网站生成</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.netlib.re/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-globe"></i>
+                  </div>
+                  <div class="website-name">netlib免费域名</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://zone.id/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-id-card-clip"></i>
+                  </div>
+                  <div class="website-name">zone免费域名</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://x10hosting.com/" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-ghost"></i>
+                  </div>
+                  <div class="website-name">x10hosting免费托管</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://same.new/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-copy"></i>
+                  </div>
+                  <div class="website-name">same复制网站</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.subeasy.ai/zh-CN" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-closed-captioning"></i>
+                  </div>
+                  <div class="website-name">subeasy字幕</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.stormkit.io/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-cloud"></i>
+                  </div>
+                  <div class="website-name">Stormkit</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 科技资讯分类 -->
+          <div class="website-category" id="tech-news">
+            <div class="category-title">科技资讯</div>
+            <div class="website-row">
+              <div class="website-item">
+                <a href="https://www.techcrunch.com" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-newspaper"></i>
+                  </div>
+                  <div class="website-name">TechCrunch</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.wired.com" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-solid fa-bolt"></i>
+                  </div>
+                  <div class="website-name">Wired</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.theverge.com" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-laptop"></i>
+                  </div>
+                  <div class="website-name">The Verge</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://arstechnica.com" target="_blank">
+                  <div class="website-icon red">
+                    <i class="fa-solid fa-rocket"></i>
+                  </div>
+                  <div class="website-name">Ars Technica</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.engadget.com" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                  </div>
+                  <div class="website-name">Engadget</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://scitechdaily.com/" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-microscope"></i>
+                  </div>
+                  <div class="website-name">科技日报</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://techradar.com" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-solid fa-satellite"></i>
+                  </div>
+                  <div class="website-name">TechRadar</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://b.186404.xyz/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-blog"></i>
+                  </div>
+                  <div class="website-name">科技博客</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.cnbeta.com.tw/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-solid fa-circle-info"></i>
+                  </div>
+                  <div class="website-name">cnbeta</div>
+                </a>
               </div>
             </div>
           </div>
@@ -480,56 +1444,72 @@
           </div>
 
           <!-- 云服务分类 -->
-          <div class="website-category" id="cloud-category">
+          <div class="website-category" id="cloud-storage">
             <div class="category-title">云服务</div>
             <div class="website-row">
               <div class="website-item">
-                <div class="website-icon orange">
-                  <i class="fab fa-aws"></i>
-                </div>
-                <div class="website-name">AWS</div>
+                <a href="https://aws.amazon.com/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fab fa-aws"></i>
+                  </div>
+                  <div class="website-name">AWS</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon blue">
-                  <i class="fab fa-microsoft"></i>
-                </div>
-                <div class="website-name">Azure</div>
+                <a href="https://azure.microsoft.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fab fa-microsoft"></i>
+                  </div>
+                  <div class="website-name">Azure</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon multi">
-                  <i class="fab fa-google"></i>
-                </div>
-                <div class="website-name">Google Cloud</div>
+                <a href="https://cloud.google.com/" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fab fa-google"></i>
+                  </div>
+                  <div class="website-name">Google Cloud</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon orange">
-                  <i class="fas fa-cloud"></i>
-                </div>
-                <div class="website-name">阿里云</div>
+                <a href="https://www.aliyun.com/" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fas fa-cloud"></i>
+                  </div>
+                  <div class="website-name">阿里云</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon blue">
-                  <i class="fas fa-server"></i>
-                </div>
-                <div class="website-name">腾讯云</div>
+                <a href="https://cloud.tencent.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fas fa-server"></i>
+                  </div>
+                  <div class="website-name">腾讯云</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon blue">
-                  <i class="fab fa-dropbox"></i>
-                </div>
-                <div class="website-name">Dropbox</div>
+                <a href="https://www.dropbox.com/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fab fa-dropbox"></i>
+                  </div>
+                  <div class="website-name">Dropbox</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon red">
-                  <i class="fas fa-cloud-upload-alt"></i>
-                </div>
-                <div class="website-name">百度网盘</div>
+                <a href="https://pan.baidu.com/" target="_blank">
+                  <div class="website-icon red">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                  </div>
+                  <div class="website-name">百度网盘</div>
+                </a>
               </div>
               <div class="website-item">
-                <div class="website-icon green">
-                  <i class="fas fa-database"></i>
-                </div>
-                <div class="website-name">MongoDB</div>
+                <a href="https://www.mongodb.com/cloud" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fas fa-database"></i>
+                  </div>
+                  <div class="website-name">MongoDB</div>
+                </a>
               </div>
             </div>
           </div>
@@ -585,6 +1565,77 @@
                   <i class="fas fa-utensils"></i>
                 </div>
                 <div class="website-name">美团</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 电子邮箱分类 -->
+          <div class="website-category" id="email">
+            <div class="category-title">电子邮箱</div>
+            <div class="website-row">
+              <div class="website-item">
+                <a href="https://mail.google.com" target="_blank">
+                  <div class="website-icon red">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="website-name">Gmail</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://outlook.live.com" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-envelope-open"></i>
+                  </div>
+                  <div class="website-name">Outlook</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://mail.qq.com" target="_blank">
+                  <div class="website-icon orange">
+                    <i class="fa-solid fa-envelope-square"></i>
+                  </div>
+                  <div class="website-name">QQ邮箱</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://mail.163.com" target="_blank">
+                  <div class="website-icon green">
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                  </div>
+                  <div class="website-name">163邮箱</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://mail.yahoo.com" target="_blank">
+                  <div class="website-icon purple">
+                    <i class="fa-solid fa-at"></i>
+                  </div>
+                  <div class="website-name">Yahoo Mail</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://mail.proton.me" target="_blank">
+                  <div class="website-icon dark">
+                    <i class="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <div class="website-name">ProtonMail</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.zoho.com/mail/" target="_blank">
+                  <div class="website-icon blue">
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                  </div>
+                  <div class="website-name">Zoho Mail</div>
+                </a>
+              </div>
+              <div class="website-item">
+                <a href="https://www.temp-mail.org" target="_blank">
+                  <div class="website-icon multi">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                  </div>
+                  <div class="website-name">临时邮箱</div>
+                </a>
               </div>
             </div>
           </div>

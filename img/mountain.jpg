@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027" />
+      <stop offset="50%" stop-color="#203a43" />
+      <stop offset="100%" stop-color="#2c5364" />
+    </linearGradient>
+    <linearGradient id="mountain1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3a4a5c" />
+      <stop offset="100%" stop-color="#1c2630" />
+    </linearGradient>
+    <linearGradient id="mountain2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e50" />
+      <stop offset="100%" stop-color="#0f2027" />
+    </linearGradient>
+    <linearGradient id="mountain3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a6572" />
+      <stop offset="100%" stop-color="#2c3e50" />
+    </linearGradient>
+    <linearGradient id="snow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0e0e0" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1920" height="1080" fill="url(#sky)" />
+  
+  <!-- Stars -->
+  <g>
+    <circle cx="200" cy="150" r="1.5" fill="white" opacity="0.8" />
+    <circle cx="500" cy="100" r="1" fill="white" opacity="0.6" />
+    <circle cx="800" cy="200" r="1.2" fill="white" opacity="0.7" />
+    <circle cx="1100" cy="150" r="1" fill="white" opacity="0.5" />
+    <circle cx="1400" cy="100" r="1.5" fill="white" opacity="0.8" />
+    <circle cx="1700" cy="200" r="1" fill="white" opacity="0.6" />
+    <circle cx="300" cy="250" r="1" fill="white" opacity="0.7" />
+    <circle cx="600" cy="300" r="1.2" fill="white" opacity="0.5" />
+    <circle cx="900" cy="250" r="1.5" fill="white" opacity="0.8" />
+    <circle cx="1200" cy="300" r="1" fill="white" opacity="0.6" />
+    <circle cx="1500" cy="250" r="1.2" fill="white" opacity="0.7" />
+    <circle cx="1800" cy="300" r="1" fill="white" opacity="0.5" />
+    <circle cx="400" cy="50" r="1.5" fill="white" opacity="0.8" />
+    <circle cx="700" cy="150" r="1" fill="white" opacity="0.6" />
+    <circle cx="1000" cy="50" r="1.2" fill="white" opacity="0.7" />
+    <circle cx="1300" cy="150" r="1" fill="white" opacity="0.5" />
+    <circle cx="1600" cy="50" r="1.5" fill="white" opacity="0.8" />
+    <circle cx="1900" cy="150" r="1" fill="white" opacity="0.6" />
+  </g>
+  
+  <!-- Moon with glow -->
+  <circle cx="1600" cy="200" r="60" fill="#ffffff" opacity="0.9" filter="url(#glow)" />
+  
+  <!-- Cloud layers -->
+  <path d="M0,400 Q200,350 400,400 Q600,450 800,400 Q1000,350 1200,400 Q1400,450 1600,400 Q1800,350 1920,400 L1920,500 L0,500 Z" fill="#ffffff" opacity="0.1" />
+  
+  <!-- Far mountains -->
+  <path d="M0,600 L200,500 L400,580 L600,520 L800,590 L1000,510 L1200,600 L1400,530 L1600,610 L1800,540 L1920,600 L1920,1080 L0,1080 Z" fill="url(#mountain1)" />
+  
+  <!-- Middle mountains with snow caps -->
+  <path d="M0,700 L150,600 L300,680 L450,620 L600,690 L750,610 L900,700 L1050,630 L1200,710 L1350,640 L1500,720 L1650,650 L1800,730 L1920,680 L1920,1080 L0,1080 Z" fill="url(#mountain2)" />
+  <path d="M150,600 L170,580 L200,590 L230,580 L250,600 Z" fill="url(#snow)" opacity="0.9" />
+  <path d="M450,620 L470,600 L500,610 L530,600 L550,620 Z" fill="url(#snow)" opacity="0.9" />
+  <path d="M750,610 L770,590 L800,600 L830,590 L850,610 Z" fill="url(#snow)" opacity="0.9" />
+  <path d="M1050,630 L1070,610 L1100,620 L1130,610 L1150,630 Z" fill="url(#snow)" opacity="0.9" />
+  <path d="M1350,640 L1370,620 L1400,630 L1430,620 L1450,640 Z" fill="url(#snow)" opacity="0.9" />
+  <path d="M1650,650 L1670,630 L1700,640 L1730,630 L1750,650 Z" fill="url(#snow)" opacity="0.9" />
+  
+  <!-- Front mountains -->
+  <path d="M0,800 L100,700 L200,780 L300,720 L400,790 L500,710 L600,800 L700,730 L800,810 L900,740 L1000,820 L1100,750 L1200,830 L1300,760 L1400,840 L1500,770 L1600,850 L1700,780 L1800,860 L1900,790 L1920,800 L1920,1080 L0,1080 Z" fill="url(#mountain3)" />
+</svg>
