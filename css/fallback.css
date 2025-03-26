@@ -1,0 +1,161 @@
+/* 后备样式，当没有背景图片资源时使用 */
+
+/* 替代背景图片的渐变背景 */
+body {
+    background-image: linear-gradient(to bottom, #0f2027, #203a43, #2c5364) !important;
+}
+
+/* 统一图标色彩主题 - 使用明亮生动的颜色 */
+/* 主要网站图标颜色 */
+.website-icon i {
+    font-size: 28px;
+    transition: all 0.3s ease;
+}
+
+.website-icon:hover i {
+    transform: scale(1.1);
+}
+
+.website-icon.blue i {
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(66, 133, 244, 0.8);
+}
+
+.website-icon.red i {
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(234, 67, 53, 0.8);
+}
+
+.website-icon.dark i {
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.website-icon.react i {
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(97, 218, 251, 0.8);
+}
+
+.website-icon.multi i {
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(251, 188, 5, 0.8);
+}
+
+/* 增强Dock图标视觉效果 - 统一配色方案 */
+.dock-item i {
+    font-size: 24px;
+    transition: all 0.3s ease;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.dock-item:hover i {
+    transform: scale(1.2);
+    color: #ffffff;
+}
+
+/* 设置渐变底色，增强视觉效果 */
+.dock-item {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    position: relative;
+    overflow: hidden;
+}
+
+.dock-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 12px;
+    opacity: 0.6;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+}
+
+.dock-item:hover:before {
+    opacity: 0.9;
+}
+
+/* 各个图标特定颜色和渐变 */
+.dock-item:nth-child(1):before {
+    background: linear-gradient(145deg, #2932e1, #617ffa); /* 百度 */
+}
+
+.dock-item:nth-child(2):before {
+    background: linear-gradient(145deg, #10a37f, #1fd8a9); /* AI */
+}
+
+.dock-item:nth-child(3):before {
+    background: linear-gradient(145deg, #ff6a00, #ffb066); /* 阿里云 */
+}
+
+.dock-item:nth-child(4):before {
+    background: linear-gradient(145deg, #ff0000, #ff6b6b); /* 华为 */
+}
+
+.dock-item:nth-child(5):before {
+    background: linear-gradient(145deg, #333333, #666666); /* GitHub */
+}
+
+.dock-item:nth-child(6):before {
+    background: linear-gradient(145deg, #e71f19, #ff7571); /* 微博 */
+}
+
+.dock-item:nth-child(7):before {
+    background: linear-gradient(145deg, #fb7299, #ffa8c0); /* B站 */
+}
+
+.dock-item:nth-child(8):before {
+    background: linear-gradient(145deg, #0084ff, #69b5ff); /* 知乎 */
+}
+
+.dock-item:nth-child(9):before {
+    background: linear-gradient(145deg, #c32c39, #ff646f); /* CSDN */
+}
+
+.dock-item:nth-child(10):before {
+    background: linear-gradient(145deg, #4c4c4c, #7a7a7a); /* 工具 */
+}
+
+.dock-item:nth-child(11):before {
+    background: linear-gradient(145deg, #1e80ff, #70b2ff); /* 掘金 */
+}
+
+.dock-item:nth-child(12):before {
+    background: linear-gradient(145deg, #000000, #4a4a4a); /* 抖音 */
+}
+
+.dock-item:nth-child(13):before {
+    background: linear-gradient(145deg, #e1251b, #ff615a); /* 京东 */
+}
+
+.dock-item:nth-child(14):before {
+    background: linear-gradient(145deg, #ff5000, #ff9255); /* 淘宝 */
+}
+
+.dock-item:nth-child(15):before {
+    background: linear-gradient(145deg, #4c4c4c, #7a7a7a); /* 回收站 */
+}
+
+/* 侧边栏图标美化 */
+.sidebar .nav-item i {
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar .nav-item.active i {
+    color: #ff6b00;
+    text-shadow: 0 0 10px rgba(255, 107, 0, 0.5);
+}
+
+.sidebar .nav-item:hover i {
+    color: #ffffff;
+}
+
+.sidebar .logo i {
+    color: #ff6b00;
+    text-shadow: 0 0 10px rgba(255, 107, 0, 0.7);
+}

@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人导航</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fallback.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <!-- Font Awesome 6 CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 左侧导航栏 -->
+      <div class="sidebar">
+        <div class="logo">
+          <i class="fas fa-compass"></i>
+          <span>导航</span>
+        </div>
+        <div class="nav-items">
+          <div class="nav-item active">
+            <i class="fas fa-home"></i>
+            <span>首页</span>
+          </div>
+          <div class="nav-item">
+            <i class="fas fa-play-circle"></i>
+            <span>娱乐影音</span>
+          </div>
+          <div class="nav-item">
+            <i class="fas fa-code"></i>
+            <span>工具开发</span>
+          </div>
+          <div class="nav-item">
+            <i class="fas fa-shopping-cart"></i>
+            <span>购物消费</span>
+          </div>
+          <div class="nav-item">
+            <i class="fas fa-book"></i>
+            <span>学习教育</span>
+          </div>
+          <div class="nav-item">
+            <i class="fas fa-newspaper"></i>
+            <span>新闻资讯</span>
+          </div>
+          <div class="nav-item">
+            <i class="fas fa-gamepad"></i>
+            <span>游戏娱乐</span>
+          </div>
+          <div class="nav-item">
+            <i class="fas fa-cloud"></i>
+            <span>云服务</span>
+          </div>
+          <div class="nav-item">
+            <i class="fas fa-plane"></i>
+            <span>旅行出行</span>
+          </div>
+          <div class="nav-item">
+            <i class="fas fa-briefcase-medical"></i>
+            <span>健康医疗</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 主内容区 -->
+      <div class="main-content">
+        <!-- 时间和日期显示 -->
+        <div class="time-container">
+          <div class="time" id="time">15:40:51</div>
+          <div class="date" id="date">03月26日 星期三 二月十七 壬申</div>
+        </div>
+
+        <!-- 搜索框 -->
+        <div class="search-container">
+          <div class="search-box">
+            <div class="search-icon">
+              <i class="fab fa-google"></i>
+            </div>
+            <input type="text" placeholder="谋事之基 成事之道" />
+            <div class="search-button">
+              <i class="bi bi-search"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- 主要网站图标 -->
+        <div class="websites-container">
+          <!-- 首页分类 - 常用网站 -->
+          <div class="website-category active-category" id="home-category">
+            <div class="category-title">常用网站</div>
+            <div class="website-row">
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-google"></i>
+                </div>
+                <div class="website-name">Google</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fab fa-youtube"></i>
+                </div>
+                <div class="website-name">YouTube</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-facebook"></i>
+                </div>
+                <div class="website-name">Facebook</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon multi">
+                  <i class="fab fa-instagram"></i>
+                </div>
+                <div class="website-name">Instagram</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="website-name">Twitter</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fab fa-tiktok"></i>
+                </div>
+                <div class="website-name">TikTok</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon dark">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="website-name">GitHub</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fab fa-pinterest"></i>
+                </div>
+                <div class="website-name">Pinterest</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 娱乐影音分类 -->
+          <div class="website-category" id="entertainment-category">
+            <div class="category-title">娱乐影音</div>
+            <div class="website-row">
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fab fa-youtube"></i>
+                </div>
+                <div class="website-name">YouTube</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fab fa-netflix"></i>
+                </div>
+                <div class="website-name">Netflix</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-spotify"></i>
+                </div>
+                <div class="website-name">Spotify</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon pink">
+                  <i class="fab fa-bilibili"></i>
+                </div>
+                <div class="website-name">哔哩哔哩</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon dark">
+                  <i class="fas fa-film"></i>
+                </div>
+                <div class="website-name">IMDb</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon green">
+                  <i class="fas fa-tv"></i>
+                </div>
+                <div class="website-name">Hulu</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon multi">
+                  <i class="fas fa-play-circle"></i>
+                </div>
+                <div class="website-name">Disney+</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fas fa-podcast"></i>
+                </div>
+                <div class="website-name">SoundCloud</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 工具开发分类 -->
+          <div class="website-category" id="dev-category">
+            <div class="category-title">工具开发</div>
+            <div class="website-row">
+              <div class="website-item">
+                <div class="website-icon dark">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="website-name">GitHub</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-stack-overflow"></i>
+                </div>
+                <div class="website-name">Stack Overflow</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fab fa-git-alt"></i>
+                </div>
+                <div class="website-name">Gitee</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-gitlab"></i>
+                </div>
+                <div class="website-name">GitLab</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon green">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="website-name">LeetCode</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon react">
+                  <i class="fab fa-react"></i>
+                </div>
+                <div class="website-name">React</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon multi">
+                  <i class="fas fa-server"></i>
+                </div>
+                <div class="website-name">AWS</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon dark">
+                  <i class="fab fa-codepen"></i>
+                </div>
+                <div class="website-name">CodePen</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 购物消费分类 -->
+          <div class="website-category" id="shopping-category">
+            <div class="category-title">购物消费</div>
+            <div class="website-row">
+              <div class="website-item">
+                <div class="website-icon orange">
+                  <i class="fab fa-amazon"></i>
+                </div>
+                <div class="website-name">Amazon</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-shopping-bag"></i>
+                </div>
+                <div class="website-name">淘宝</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="website-name">京东</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon green">
+                  <i class="fas fa-store"></i>
+                </div>
+                <div class="website-name">Shopify</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-ebay"></i>
+                </div>
+                <div class="website-name">eBay</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon multi">
+                  <i class="fas fa-tshirt"></i>
+                </div>
+                <div class="website-name">SHEIN</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon dark">
+                  <i class="fas fa-shopping-basket"></i>
+                </div>
+                <div class="website-name">Walmart</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon green">
+                  <i class="fas fa-utensils"></i>
+                </div>
+                <div class="website-name">美团</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 学习教育分类 -->
+          <div class="website-category" id="education-category">
+            <div class="category-title">学习教育</div>
+            <div class="website-row">
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-wikipedia-w"></i>
+                </div>
+                <div class="website-name">Wikipedia</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon green">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="website-name">Coursera</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <div class="website-name">edX</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fas fa-book"></i>
+                </div>
+                <div class="website-name">Khan Academy</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon dark">
+                  <i class="fas fa-microscope"></i>
+                </div>
+                <div class="website-name">Nature</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-language"></i>
+                </div>
+                <div class="website-name">Duolingo</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon multi">
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="website-name">Udemy</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-researchgate"></i>
+                </div>
+                <div class="website-name">ResearchGate</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 新闻资讯分类 -->
+          <div class="website-category" id="news-category">
+            <div class="category-title">新闻资讯</div>
+            <div class="website-row">
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fab fa-cnn"></i>
+                </div>
+                <div class="website-name">CNN</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon dark">
+                  <i class="fas fa-newspaper"></i>
+                </div>
+                <div class="website-name">BBC</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-rss"></i>
+                </div>
+                <div class="website-name">Reuters</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-nytimes"></i>
+                </div>
+                <div class="website-name">New York Times</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-globe-asia"></i>
+                </div>
+                <div class="website-name">环球时报</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="far fa-newspaper"></i>
+                </div>
+                <div class="website-name">The Guardian</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon multi">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="website-name">Bloomberg</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="website-name">Twitter</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 游戏娱乐分类 -->
+          <div class="website-category" id="gaming-category">
+            <div class="category-title">游戏娱乐</div>
+            <div class="website-row">
+              <div class="website-item">
+                <div class="website-icon purple">
+                  <i class="fab fa-twitch"></i>
+                </div>
+                <div class="website-name">Twitch</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon dark">
+                  <i class="fab fa-steam"></i>
+                </div>
+                <div class="website-name">Steam</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon green">
+                  <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="website-name">Xbox</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-playstation"></i>
+                </div>
+                <div class="website-name">PlayStation</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-dice"></i>
+                </div>
+                <div class="website-name">Nintendo</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon dark">
+                  <i class="fas fa-headset"></i>
+                </div>
+                <div class="website-name">Discord</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon multi">
+                  <i class="fas fa-trophy"></i>
+                </div>
+                <div class="website-name">Epic Games</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fas fa-chess-knight"></i>
+                </div>
+                <div class="website-name">Chess.com</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 云服务分类 -->
+          <div class="website-category" id="cloud-category">
+            <div class="category-title">云服务</div>
+            <div class="website-row">
+              <div class="website-item">
+                <div class="website-icon orange">
+                  <i class="fab fa-aws"></i>
+                </div>
+                <div class="website-name">AWS</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-microsoft"></i>
+                </div>
+                <div class="website-name">Azure</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon multi">
+                  <i class="fab fa-google"></i>
+                </div>
+                <div class="website-name">Google Cloud</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon orange">
+                  <i class="fas fa-cloud"></i>
+                </div>
+                <div class="website-name">阿里云</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fas fa-server"></i>
+                </div>
+                <div class="website-name">腾讯云</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fab fa-dropbox"></i>
+                </div>
+                <div class="website-name">Dropbox</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-cloud-upload-alt"></i>
+                </div>
+                <div class="website-name">百度网盘</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon green">
+                  <i class="fas fa-database"></i>
+                </div>
+                <div class="website-name">MongoDB</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 旅行出行分类 -->
+          <div class="website-category" id="travel-category">
+            <div class="category-title">旅行出行</div>
+            <div class="website-row">
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fas fa-plane"></i>
+                </div>
+                <div class="website-name">Booking.com</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-hotel"></i>
+                </div>
+                <div class="website-name">Airbnb</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fas fa-car"></i>
+                </div>
+                <div class="website-name">Uber</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon green">
+                  <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <div class="website-name">TripAdvisor</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-passport"></i>
+                </div>
+                <div class="website-name">携程</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fas fa-taxi"></i>
+                </div>
+                <div class="website-name">滴滴出行</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon dark">
+                  <i class="fas fa-subway"></i>
+                </div>
+                <div class="website-name">Google Maps</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-utensils"></i>
+                </div>
+                <div class="website-name">美团</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 健康医疗分类 -->
+          <div class="website-category" id="health-category">
+            <div class="category-title">健康医疗</div>
+            <div class="website-row">
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fas fa-heartbeat"></i>
+                </div>
+                <div class="website-name">WebMD</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-hospital"></i>
+                </div>
+                <div class="website-name">Mayo Clinic</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fas fa-stethoscope"></i>
+                </div>
+                <div class="website-name">WHO</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon green">
+                  <i class="fas fa-running"></i>
+                </div>
+                <div class="website-name">Fitbit</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon red">
+                  <i class="fas fa-pills"></i>
+                </div>
+                <div class="website-name">平安好医生</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fas fa-user-md"></i>
+                </div>
+                <div class="website-name">丁香医生</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon green">
+                  <i class="fas fa-apple-alt"></i>
+                </div>
+                <div class="website-name">MyFitnessPal</div>
+              </div>
+              <div class="website-item">
+                <div class="website-icon blue">
+                  <i class="fas fa-dna"></i>
+                </div>
+                <div class="website-name">NIH</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 底部网站图标 -->
+        <div class="dock-container">
+          <div class="dock">
+            <div class="dock-item">
+              <i class="fas fa-robot"></i>
+              <span class="sr-only">AI</span>
+            </div>
+            <div class="dock-item">
+              <i class="fas fa-cloud"></i>
+              <span class="sr-only">阿里云</span>
+            </div>
+            <div class="dock-item">
+              <i class="fas fa-mobile-alt"></i>
+              <span class="sr-only">华为</span>
+            </div>
+            <div class="dock-item">
+              <i class="fab fa-github"></i>
+              <span class="sr-only">GitHub</span>
+            </div>
+            <div class="dock-item">
+              <i class="fab fa-weibo"></i>
+              <span class="sr-only">微博</span>
+            </div>
+            <div class="dock-item">
+              <i class="fab fa-bilibili"></i>
+              <span class="sr-only">哔哩哔哩</span>
+            </div>
+            <div class="dock-item">
+              <i class="fab fa-zhihu"></i>
+              <span class="sr-only">知乎</span>
+            </div>
+            <div class="dock-item">
+              <i class="fas fa-code"></i>
+              <span class="sr-only">CSDN</span>
+            </div>
+            <div class="dock-item">
+              <i class="fas fa-tools"></i>
+              <span class="sr-only">工具</span>
+            </div>
+            <div class="dock-item">
+              <i class="fas fa-gem"></i>
+              <span class="sr-only">掘金</span>
+            </div>
+            <div class="dock-item">
+              <i class="fab fa-tiktok"></i>
+              <span class="sr-only">抖音</span>
+            </div>
+            <div class="dock-item">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="sr-only">京东</span>
+            </div>
+            <div class="dock-item">
+              <i class="fas fa-shopping-bag"></i>
+              <span class="sr-only">淘宝</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
