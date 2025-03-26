@@ -748,3 +748,102 @@ body::after {
 .website-icon.purple:before {
   background: linear-gradient(145deg, #9146ff, #c391ff);
 }
+
+/* 多彩链接效果样式 - 如图片所示 */
+.education-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.education-link {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.education-link:hover {
+  transform: translateY(-5px);
+}
+
+.education-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.education-icon i, .education-icon span {
+  font-size: 28px;
+  color: white;
+}
+
+.education-name {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* 图标颜色定义 */
+.edu-wikipedia {
+  background-color: #3366cc;
+}
+
+.edu-coursera {
+  background-color: #29b35b;
+}
+
+.edu-edx {
+  background-color: #e2282e;
+}
+
+.edu-khan {
+  background-color: #4c8bf5;
+}
+
+.edu-nature {
+  background-color: #222222;
+}
+
+.edu-duolingo {
+  background-color: #e53935;
+}
+
+.edu-udemy {
+  background: linear-gradient(45deg, #ec5252, #6e1a52);
+}
+
+.edu-research {
+  background-color: #3b95d0;
+}
+
+/* 图标内容样式 */
+.edu-wikipedia span {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.edu-research span {
+  font-family: serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.education-link:hover .education-icon {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
